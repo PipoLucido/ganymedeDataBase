@@ -7,7 +7,7 @@ async function database(){
 
         console.log("conectando a base de datos..")
         //la url cambia dependiendo si se abre en una maquina local o si se usa un cliente como MongoDB atlas
-        await mongoose.connect('mongodb://127.0.0.1:27017/ganymede',{
+        await mongoose.connect('mongodb+srv://ro:ro123@cluster0.2oozk.mongodb.net/ganymede?retryWrites=true&w=majority',{
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
