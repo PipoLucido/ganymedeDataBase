@@ -1,0 +1,23 @@
+{
+  "name": "ganymede",
+  "version": "1.0.0",
+  "description": "API typescript DB themisto",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./dist/index.js"
+  },
+  "keywords": [
+    "api",
+    "puppetter",
+    "data",
+    "base"
+  ],
+  "author": "Rodrigo",
+  "license": "MIT",
+  "devDependencies": {
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-router": "^9.1.0",
+    "mongoose": "^5.9.25"
+  }
+}
